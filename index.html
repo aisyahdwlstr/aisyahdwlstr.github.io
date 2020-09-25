@@ -32,7 +32,7 @@
 				<footer>
 					<ul class="icons">
 						<li><a href="https://twitter.com/aisyahdwlstr" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.facebook.com/aisyahdwlstr/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https:www.fb.com/aisyahdwlstr" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 						<li><a href="https://www.instagram.com/aisyahdwlstr" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="https://github.com/aisyahdwlstr" class="icon brands fa-github"><span class="label">Github</span></a></li>
 						<li><a href="mailto:aisyahdwi15@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
@@ -75,8 +75,8 @@
 									<h3>Skills</h3>
 									<ul class="feature-icons">
 										<li class="icon solid fa-user-friends">Good command of English and Bahasa.</li>
-										<li class="icon solid fa-book">English-Indonesian translation.</li>
 										<li class="icon solid fa-tv">Proficiency in Ms. Office and G-Suites.</li>
+										<li class="icon solid fa-book">English-Indonesian translation.</li>
 										<li class="icon solid fa-image">Familiarity in Adobe Photoshop, AI, etc</li>
 										<li class="icon solid fa-file-code">Web Development (HTML & CSS).</li>
 										<li class="icon solid fa-binoculars">Proofread various type of documents.</li>
@@ -161,7 +161,7 @@
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p>I will get to you as soon as possible!</p>
-									<form action="mailto:aisyahdwi15@gmail.com" method="post" enctype="text/plain">
+									<form name="registration" action="mailto:aisyahdwi15@gmail.com" method="POST" enctype="text/plain" onsubmit="return validateForm()">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -529,6 +529,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/datavalid.js"></script>
 			<script src="assets/js/main.js"></script>
 
 	</body>
