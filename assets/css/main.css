@@ -2942,6 +2942,10 @@ input, select, textarea {
 				padding-right: 20em;
 			}
 
+			#four {
+				display: none;
+			}
+
 	}
 
 /* Medium */
@@ -3116,6 +3120,10 @@ input, select, textarea {
 				transform: translateX(0);
 			}
 
+			#four {
+				display: none;
+			}
+
 	}
 
 /* Small */
@@ -3261,6 +3269,10 @@ input, select, textarea {
 				transform: translateX(-17em);
 			}
 
+			#four {
+				display: none;
+			}
+
 	}
 
 /* XSmall */
@@ -3323,6 +3335,10 @@ input, select, textarea {
 			input[type="button"],
 			.button {
 				padding: 0;
+			}
+
+			#four {
+				display: none;
 			}
 
 	}
